@@ -12,7 +12,7 @@ I recently got a new MacBook Pro with the M1 chip. Since Apple switched from Int
 | 1Password   | Only the beta release seems to work, download [here](https://app-updates.agilebits.com/download/OPM7/Y).   |
 | Slack | Stable release for Apple Silicon [here](https://slack.com/downloads/mac). |
 | Zoom | Stable release for Apple Silicon [here](https://zoom.us/download). |
-| Rosetta | You will need this to run many non-native apps. Run `softwareupdate --install-rosetta` in terminal. |
+| Rosetta | You will need this to run many non-native apps. Run `softwareupdate --install-rosetta` in your terminal. |
 | Spotify | Does not run natively. Install Rosetta first, then download normally from the Spotify website. |
 
 ## Productivity tools
@@ -30,7 +30,7 @@ I recently got a new MacBook Pro with the M1 chip. Since Apple switched from Int
 
 | Utility | Notes |
 | --- | --- |
-| xcode command line utils | Run `xcode-select --install` in terminal. Alternatively the terminal seems to prompt the user to download the xcode command line utils after you try to execute a command such as `git`. |
+| xcode command line utils | Run `xcode-select --install` in your terminal. Alternatively the terminal seems to prompt the user to download the xcode command line utils after you try to execute a command such as `git`. |
 | zsh config | Looks like the default shell is zsh in MacOS Big Sur. I installed [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) normally using `curl` and it worked fine. |
 | VSCode | Stable release for Apple Silicon [here](https://code.visualstudio.com/download). |
 | Homebrew | Release for Apple Silicon [here](https://brew.sh). They say it's partial but it has worked for everything I needed. However, you must check out to master by additionally running the command `git -C $(brew —repo homebrew/core) checkout master` after you install brew. |

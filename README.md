@@ -49,6 +49,7 @@ I recently got a new MacBook Pro with the M1 chip. Since Apple switched from Int
 | `gatsby` | Make sure you have `node` and `yarn` installed. Gatsby uses `libvips` which you will have to compile and install globally yourself. Follow steps in [this issue](https://www.gitmemory.com/issue/lovell/sharp/2460/739092532) to do this. Basically, you use Mac ports to install specific dependencies. |
 | `tmux` | Install brew as above, then run `brew install tmux`. |
 | `c`/`c++` | Covered by xcode command line tools. To verify, run `clang++ --version` in your terminal. |
+| `grpcio` | Install conda (miniforge) as above. When you create a conda environment, you can run `conda install LIB_NAME` pretty smoothly. |
 
 ## Data science tools
 
